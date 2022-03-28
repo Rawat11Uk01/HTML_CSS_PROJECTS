@@ -1,0 +1,98 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 4rem;
+  color: white;
+  font-weight: 300;
+}
+
+.one,
+.three_sec,
+.three {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.one {
+  background-image: url("/Images/image1.png");
+  height: 100vh;
+  position: relative;
+}
+
+.first_heading {
+  background-color: #313534;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  padding: 2em;
+}
+
+.two_sec {
+  height: 350px;
+  text-align: center;
+  margin-top: 2em;
+}
+.two_sec .second_heading {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+.two_sec p {
+  font-size: 1.5rem;
+  color: #444544;
+
+  width: 1126px;
+  margin: 0 auto;
+  font-weight: 300;
+}
+
+.three_sec {
+  background-image: url("/Images/imimage2");
+  height: 400px;
+  position: relative;
+}
+.explore_nature_heading {
+  background: rgba(0, 151, 19, 0.1);
+
+  padding: 2.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 0;
+}
+.explore_nature_heading h1 {
+  color: white;
+}
+
+.four_sec {
+  height: 350px;
+  text-align: center;
+  background: #313534;
+  color: white;
+}
+.four_sec h2 {
+    margin-top: 1rem;
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+.four_sec p {
+  font-size: 1.5rem;
+  color: #444544;
+
+  width: 1126px;
+  margin: 0 auto;
+  font-weight: 300;
+}
