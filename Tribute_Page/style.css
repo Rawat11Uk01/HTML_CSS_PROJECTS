@@ -10,9 +10,12 @@ body {
   background-color: #e5e5e5;
   font-family: sans-serif;
 }
+
+/*######header#####*/
+
 .container {
   border: 6px solid #1D1E4C;
-  width: 1000px;
+  width: 900px;
   height: 1250;
   margin: 10px auto;
   
@@ -20,15 +23,15 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  padding-top: 113px;
-  padding-left: 97px;
+  margin-top: 113px;
+  margin-left: 97px;
 }
 
 .text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-right: 100px;
+  margin-right: 10px;
 }
 .header .text h1 {
   font-size: 4.8rem;
@@ -37,6 +40,7 @@ body {
 .header .text p {
   font-size: 24px;
   align-self: flex-end;
+ 
 }
 .header img {
   display: inline-block;
@@ -44,6 +48,8 @@ body {
   height: 392px;
   border-radius: 170px;
 }
+
+/*######main#####*/
 .main{
     margin-top: 5rem;
     padding-left: 97px;
@@ -54,9 +60,11 @@ body {
 }
 .main p{
     font-size: 12px;
+    text-align: justify;
+    margin-right: 20px;
 }
 
-
+/*######main2#####*/
 .main-2{
     margin-top: 4rem;
     padding-left: 100px;
@@ -71,3 +79,5 @@ body {
 .main-2 ul li{
     margin-bottom: 1rem;
 }
+
+
