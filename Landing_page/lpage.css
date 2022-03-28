@@ -150,3 +150,36 @@ width: 100%;
   color: white;
   font-size: 4rem;
 }
+
+
+@media(max-width:786px){
+    .hero-section{
+        min-height: 50vh;
+    }
+   .text-container{
+       padding: 10px 0;
+       text-align: center;
+   }
+   .lg-heading{
+       font-size: 32px;
+   }
+   .bottom-heading{
+       padding: 10px 0;
+    
+   }
+   .bottom-heading h2{
+    font-size: 32px;
+   }
+   .bottom-heading span{
+    font-size: 40px;
+   }
+   .before-footer{
+       flex-direction: column;
+   }
+    .before-footer h1{
+       font-size: 40px;
+   }
+   .before-footer p{
+    font-size: 15px;
+   }
+} 
