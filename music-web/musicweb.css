@@ -99,6 +99,69 @@ nav ul li:hover {
   margin-bottom: 20px;
 }
 
+.music-section {
+  border: 1px solid red;
+  height: 806px;
+  background-color: #281154;
+  padding-top: 60px;
+ 
+  
+}
+.music_section_div {
+  border: 1px solid black;
+  max-width: 968px;
+  margin: 0 auto;
+  text-align: center;
+}
+.music_section_div h2 {
+  color: wheat;
+  font-weight: 500;
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+.music_section_div h4 {
+  color: wheat;
+  font-weight: 400;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.music_section_div h3 {
+  color: wheat;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.music_section_div button {
+  padding: 18px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-style: none;
+  color: white;
+  margin-bottom: 20px;
+  background-color: #DC0000;
+}
+.music_section_div p{
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 300;
+ 
+}
+.music_section_div .hero-h3{
+  margin-top: 40px;
+  color: black;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.music_section_div .hero-p{
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+.music_section_div .hero-button{
+  background: #37008E;
+  margin-bottom: 40px;
+}
 /*###########new#######/*
 
 
