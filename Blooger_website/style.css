@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  /* themeColorfontfamily */
+  --Text-gray: #3f4954;
+  --text-light: #686666da;
+  --bg-color: #0f0f0f;
+  --white: #ffffff;
+  --midnight: #104f55;
+  /* gradianColor */
+  --sky: liner-gradient(120deg, #a1c4fd 0%, #3c2e9fb 100%);
+  /* gradianColor */
+}
+/* global classes */
+
+a {
+  text-decoration: none;
+  color: var(--Text-gray);
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+h1{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 1.3rem;
+}
+h2{
+    
+}
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+/* global classes */
+
+/* navbar */
+nav {
+ 
+  background: white;
+  padding: 0 2rem;
+  height: 0rem;
+  min-height: 10vh;
+  overflow: hidden;
+  transition: height 1s ease-in-out;
+}
+.nav .nav-items {
+  display: flex;
+}
+.nav .nav-items .nav-link {
+  padding: 1.6rem 1rem;
+  font-size: 1.1rem;
+  position: relative;
+}
+.nav .nav-brand a {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+  display: block;
+}
+.nav-menu {
+  justify-content: space-between;
+}
+.nav .nav-items .nav-link:hover {
+  background-color: var(--midnight);
+}
+.nav .nav-items .nav-link:hover a {
+  color: white;
+}
+.nav .social {
+  padding: 1.4rem 0;
+}
+.social img{
+    padding: 0 .2rem;
+}
+.nav .toggle-collpase{
+    
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    cursor: pointer;
+    display: none;
+}
+.nav .toggle-collpase .toggle-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0;
+}
+.nav .toggle-collpase .toggle-icons i{
+    font-size: 1.4rem;
+    color: var(--Text-gray);
+}
+.collapse{
+    height: 20rem;
+}
+/* navbar */
+/* main */
+
+/* site title */
+
+
+.site-title{
+background-image: url('../Images/Blooger_Assets/assets/Background-image.png');
+background-size: cover;
+height: 110vh;
+background-position: center;
+display: flex;
+justify-content: center;
+
+} 
+.site-background{
+    padding-top: 10rem;
+    text-align: center;
+    color: white;
+}
+ .site-background h1,h3{
+     margin: .3rem;
+ }
+ .site-background .btn{
+     margin: 1.8rem;
+     background: skyblue;
+     transition: all 500ms ease-in-out;
+ }
+ .site-background .btn:hover{
+     background: transparent;
+     color: white;
+     border: 1px solid white;
+ }
+/* site title */
+/* main */
+/* media query */
+/* ViewPort less than or eqal to 750px */
+@media(max-width:750px){
+.nav .nav-menu, .nav .nav-items{
+    flex-direction: column;
+}
+.nav .toggle-collpase{
+    display: initial;
+}
+}
+/* ViewPort less than or eqal to 750px */
