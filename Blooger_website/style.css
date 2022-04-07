@@ -143,6 +143,18 @@ justify-content: center;
      border: 1px solid white;
  }
 /* site title */
+
+/* blog-carosal */
+.blog{
+    background-image: url('/Images/Blooger_Assets/assets/Abract01.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+}
+
+/* blog-carosal */
+
 /* main */
 /* media query */
 /* ViewPort less than or eqal to 750px */
