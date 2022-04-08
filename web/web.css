@@ -7,7 +7,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background: #e5e5e5e5;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 html {
   font-size: 62.5%;
@@ -208,6 +208,8 @@ margin-bottom: 20px;
 }
 .before-footer-image img{
   object-fit: contain;
+  width: 100%;
+  height: 400px;
 }
 .size{
    
