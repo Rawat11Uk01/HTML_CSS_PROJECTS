@@ -23,3 +23,10 @@
 // fruit[2]='kela';
 // console.log(typeof fruit);
 // console.log(Array.isArray(fruit));
+
+// let array1  =['asasa', 'csscac', 'xaxaxaxa' ,'xaxaxxx'];
+// let newArray= array1.slice(0).concat(['qwerrty'])
+
+// console.log(newArray===array1);
+// console.log(newArray);
+
