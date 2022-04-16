@@ -6,17 +6,20 @@
 // }
 // let num = 10;
 
-
 // let total = num*(num+1)/2;
 // console.log(total)
 
+// let total = 0
+// let i = 11;
+// do {
+//     i++;
+// } while (
+//     i < 10
+// )
+// console.log(i);
 
-
-let total = 0
-let i = 11;
-do {
-    i++;
-} while (
-    i < 10
-)
-console.log(i);
+// let fruit = ["apple", 'banna', 'mango'];
+// console.log(fruit[fruit.length-1])
+// fruit[2]='kela';
+// console.log(typeof fruit);
+// console.log(Array.isArray(fruit));
