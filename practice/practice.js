@@ -359,12 +359,68 @@
 // console.log(900.9 === (300.3*10* 3)/10)
 
 
-let a = 'ok';
-let b = a;
-a = 'not ok'
-let c = {};
+// let a = 'ok';
+// let b = a;
+// a = 'not ok'
+// let c = {};
 
 
-console.log(a ===c);
-console.log(b);
-console.log(a)
+// console.log(a ===c);
+// console.log(b);
+// console.log(a)
+
+
+// let array1 = [1, 2, 3, 4, 5];
+// let array2 = [5, 4, 3, 2, 1];
+
+// let is_same = array1.every((curElem) => {
+//     if (array1.length === array2.length && array2.indexOf(curElem)>-1) {
+//         return (curElem === array2[array2.indexOf(curElem)]);
+//     }
+// })
+
+// console.log(is_same);
+
+
+// let arr = [1,1,1,111,1,11,1];
+// let newArr = [...new Set(arr)];
+// console.log(newArr);
+
+// program to reverse a string
+
+// function reverseString(str) {
+
+
+//     let newString = "";
+//     for (let i = str.length - 1; i >= 0; i--) {
+//         newString += str[i];
+
+//     }
+//     return newString;
+// }
+
+
+// const string = prompt('Enter a string: ');
+
+// const result = reverseString(string);
+// console.log(result);
+
+
+// function reverseString(str){
+//     let newStr = '';
+//     for(let i = 0; i = str.length - 1; i--){
+//         newStr += str[i];
+//     }
+//     return newStr;
+// } 
+
+// const ask = prompt('write a string');
+// const result =reverseString(ask);
+// console.log(result);
+
+// console.log('ok')
+
+// const str = 'I LOVE KITTU';
+// const newStr = str.split('');
+
+// console.log(newStr.reverse().join(''));
