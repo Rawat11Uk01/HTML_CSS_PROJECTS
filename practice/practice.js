@@ -435,16 +435,61 @@
 // console.log(newStr)
 
 
-const rev = (num)=>{
-    let newX = num.toString().split('').reverse().join('');
-    if(newX.endsWith('-')){
-        newX = '-'+ newX;
-        return parseInt(newX)
-    }else{
-        return parseInt(newX)
-    }
-   
+// const rev = (num) => {
+//     let newX = num.toString().split('').reverse().join('');
+//     if (newX.endsWith('-')) {
+//         newX = '-' + newX;
+//         return parseInt(newX)
+//     } else {
+//         return parseInt(newX)
+//     }
+
+// }
+
+
+// console.log(rev(-1234567890));
+
+
+
+// let num = prompt('enter a num');
+// var isPrimeNumber = true;
+// for (let i = 2; i < num; i++) {
+//     if (num % i === 0) {
+//         isPrimeNumber = false;
+
+//     }
+// }
+
+// if(isPrimeNumber ===true){
+//     console.log(`${num} is a prime number`)
+// }else{
+//     console.log(`${num} is a not prime number`)
+// }
+
+
+// let num =100;
+// let x = 0;
+// let y = 1;
+// let fn = x + y;
+// console.log(x);
+// while (fn < num) {
+//     console.log(fn);
+//     fn = x + y;
+//     x = y;
+//     y = fn;
+  
+    
+// }
+
+
+
+
+function vowelFinder(a){
+   if(a==='a' || a==='e' || a==='i'|| a==='o'|| a==='u'  ){
+        console.log(`${a} is vowel`)
+   }else{
+    console.log(`${a} is not vowel`)
+   }
 }
 
-
-console.log(rev(-1234567890));
+vowelFinder('o');
