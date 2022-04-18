@@ -268,4 +268,4 @@ const users = [{
     ip_address: "44.37.119.76"
 }];
 
-console.log(users.filter(({ip_address})=>ip_address.split('.')[0] < 128 ))
+// console.log(users.fill('delete'))
