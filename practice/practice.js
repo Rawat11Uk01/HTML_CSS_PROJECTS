@@ -484,12 +484,17 @@
 
 
 
-function vowelFinder(a){
-   if(a==='a' || a==='e' || a==='i'|| a==='o'|| a==='u'  ){
-        console.log(`${a} is vowel`)
-   }else{
-    console.log(`${a} is not vowel`)
-   }
-}
+// function vowelFinder(a){
+//    if(a==='a' || a==='e' || a==='i'|| a==='o'|| a==='u'  ){
+//         console.log(`${a} is vowel`)
+//    }else{
+//     console.log(`${a} is not vowel`)
+//    }
+// }
 
-vowelFinder('o');
+// vowelFinder('');
+
+// const getSum = (a)=> (b)=> (c)=> (d)=> (e)=>console.log(a+b+c+d+e)
+                 
+
+// getSum(5)(4)(3)(2)(1);
