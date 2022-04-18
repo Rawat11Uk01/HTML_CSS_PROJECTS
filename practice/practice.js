@@ -353,5 +353,18 @@
 
 
 
-let str = 'rawat rawat rawat rawat';
-console.log(str.replace(/rawat/g, 'kittu'))
+// let str = 'rawat rawat rawat rawat';
+// console.log(str.replaceAll('rawat', 'ok'))
+
+// console.log(900.9 === (300.3*10* 3)/10)
+
+
+let a = 'ok';
+let b = a;
+a = 'not ok'
+let c = {};
+
+
+console.log(a ===c);
+console.log(b);
+console.log(a)
