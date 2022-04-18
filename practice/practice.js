@@ -433,3 +433,18 @@
 //     newStr+=str[i];
 // }
 // console.log(newStr)
+
+
+const rev = (num)=>{
+    let newX = num.toString().split('').reverse().join('');
+    if(newX.endsWith('-')){
+        newX = '-'+ newX;
+        return parseInt(newX)
+    }else{
+        return parseInt(newX)
+    }
+   
+}
+
+
+console.log(rev(-1234567890));
